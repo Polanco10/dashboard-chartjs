@@ -1,0 +1,17 @@
+<div class="card shadow">
+  <div class="card-header bg-transparent">
+    <h3 class="mb-0">Pie Chart</h3>
+  </div>  
+      <div class="card-body">
+        <div class="chart-wrapper">
+          <canvas baseChart 
+          [data]="pieChartData" 
+          [labels]="pieChartLabels" 
+          [chartType]="pieChartType"
+          [options]="pieChartOptions"
+          [plugins]="pieChartPlugins"
+          [legend]="pieChartLegend">
+        </canvas>
+      </div>
+      </div>
+  </div>
